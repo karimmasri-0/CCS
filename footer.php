@@ -1,8 +1,9 @@
 </main>
 <footer class="bg-black text-gray-400">
-    <div class="px-44 pt-20 grid grid-cols-12 gap-8 ">
-        <div class="col-span-3 ">
-            <h2 class="text-xl text-gray-200 uppercase mb-3">About us</h2>
+    <div class="px-24 md:px-32 lg:px-44 pt-20 flex items-start flex-wrap gap-16 ">
+        <div class=" flex-1">
+            <h2 class="text-xl text-gray-200 uppercase mb-3">
+                About us</h2>
             <div>Looking for high-quality construction tools? Look no further than our site, where we offer a wide range
                 of durable and reliable tools to help you get the job done right.</div>
             <div class="flex justify-around items-center mt-3">
@@ -36,33 +37,44 @@
                 </div>
             </div>
         </div>
-        <div class="col-span-2 flex flex-col gap-4">
-            <h2 class="text-xl text-gray-200 uppercase mb-3 ">Information</h2>
-            <a>About us</a>
-            <a>Delivery Information</a>
-            <a>Privacy & Policy</a>
-            <a>Terms & Conditions</a>
+        <div class=" flex flex-col gap-4">
+            <h2 class="text-xl text-gray-200 uppercase mb-3">
+                Information
+            </h2>
+            <a class="border-black border-l-4 hover:border-[#00a2d9] transition-all pl-1 cursor-pointer">About us</a>
+            <a class="border-black border-l-4 hover:border-[#00a2d9] transition-all pl-1 cursor-pointer">Delivery
+                Information</a>
+            <a class="border-black border-l-4 hover:border-[#00a2d9] transition-all pl-1 cursor-pointer">Privacy &
+                Policy</a>
+            <a class="border-black border-l-4 hover:border-[#00a2d9] transition-all pl-1 cursor-pointer">Terms &
+                Conditions</a>
         </div>
-        <div class="col-span-2 flex flex-col gap-4 ">
-            <h2 class="text-xl text-gray-200 uppercase mb-3">My account</h2>
-            <a>My account</a>
-            <a>My cart</a>
-            <a>Login</a>
-            <a>Register</a>
+        <div class="flex flex-col gap-4 ">
+            <h2 class="text-xl text-gray-200 uppercase mb-3">
+                My account
+            </h2>
+            <a class="border-black border-l-4 hover:border-[#00a2d9] transition-all pl-1 cursor-pointer">My account</a>
+            <a class="border-black border-l-4 hover:border-[#00a2d9] transition-all pl-1 cursor-pointer">My cart</a>
+            <a class="border-black border-l-4 hover:border-[#00a2d9] transition-all pl-1 cursor-pointer">Login</a>
+            <a class="border-black border-l-4 hover:border-[#00a2d9] transition-all pl-1 cursor-pointer">Register</a>
         </div>
-        <div class="col-span-2 flex flex-col gap-4 ">
-            <h2 class="text-xl text-gray-200 uppercase mb-3">Categories</h2>
-            <a>T-Shirts</a>
-            <a>Pants</a>
-            <a>Shorts</a>
+        <div class="flex flex-col gap-4 ">
+            <h2 class="text-xl text-gray-200 uppercase mb-3">
+                Categories
+            </h2>
+            <a class="border-black border-l-4 hover:border-[#00a2d9] transition-all pl-1 cursor-pointer">T-Shirts</a>
+            <a class="border-black border-l-4 hover:border-[#00a2d9] transition-all pl-1 cursor-pointer">Pants</a>
+            <a class="border-black border-l-4 hover:border-[#00a2d9] transition-all pl-1 cursor-pointer">Shorts</a>
         </div>
-        <div class="col-span-3 flex flex-col gap-4 ">
-            <h1 class="text-xl text-gray-200 uppercase mb-3">Newsletter</h1>
-            <form>
+        <div class=" flex flex-col gap-4 ">
+            <h1 class="text-xl text-gray-200 uppercase mb-3">
+                Newsletter
+            </h1>
+            <form class="flex flex-col gap-4">
                 <input type="email" class="p-3 bg-black outline-none text-gray-200 border"
                     placeholder="Your Email ..." />
                 <button type="submit"
-                    class="bg-[#00a2d9] shadow-md shadow-[#00a2d9]/20 hover:shadow-lg hover:shadow-[#00a2d9]/40 text-white px-4 py-2 mt-6 transition-all focus:opacity-[0.85]">Submit</button>
+                    class="bg-[#00a2d9] w-fit shadow-md shadow-[#00a2d9]/20 hover:shadow-lg hover:shadow-[#00a2d9]/40 text-white px-4 py-2 transition-all focus:opacity-[0.85]">Submit</button>
             </form>
         </div>
     </div>
