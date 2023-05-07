@@ -1,6 +1,6 @@
 </main>
 <footer class="bg-black text-gray-400">
-    <div class="px-24 md:px-32 lg:px-44 pt-20 flex items-start flex-wrap gap-16 ">
+    <div class="px-16 sm:px-24 md:px-32 lg:px-44 pt-20 flex items-start flex-wrap gap-16 ">
         <div class=" flex-1">
             <h2 class="text-xl text-gray-200 uppercase mb-3">
                 About us</h2>

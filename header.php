@@ -46,10 +46,9 @@
 </head>
 
 <body class="caret-[#00a2d9]">
-    <header class="fixed w-full z-10 bg-white py-4 border-b px-12 lg:px-20 flex items-center justify-between">
-        <div class="flex items-center gap-14">
+    <header class="fixed w-full z-10 bg-white py-4 border-b px-12 flex items-center justify-between">
+        <div class="flex items-center gap-10">
             <img class=" w-16" src="logo.png" alt=" logo" />
-
             <div class="hidden md:block transition-all relative bg-[#00a2d9]">
                 <button id="dropdown-button" class=" gap-1 font-bold py-2 px-4 rounded inline-flex items-center">
                     <span class="text-lg text-white">Categories</span>
@@ -70,13 +69,7 @@
                     <a href="#" class="block px-4 py-2 hover:bg-[#00a2d9]/40">Option 3</a>
                 </div>
             </div>
-
         </div>
-
-
-
-
-
         <div id='searchField' class=' hidden '>
             <form class=" absolute top-1/2 right-1/2 translate-y-[50%] translate-x-[50%]">
                 <svg class=" absolute top-3 w-5 ml-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -93,22 +86,23 @@
                 </button>
             </form>
         </div>
+        <form class="hidden sm:block relative md:hidden lg:block">
+            <svg class=" absolute top-3 w-5 ml-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" class="feather feather-search">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="search" id="search" placeholder="Search..."
+                class=" pl-8 placeholder:italic bg-gray-200 outline-none rounded p-3 w-[20rem] lg:w-[20rem]" />
+            <button type="submit"
+                class=" absolute right-1 bottom-1 bg-[#00a2d9] text-white px-4 py-2 rounded gap-1 flex items-center">
+                Search
+            </button>
+        </form>
         <nav class=" flex items-center gap-4">
-            <form class="hidden sm:block relative">
-                <svg class=" absolute top-3 w-5 ml-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" class="feather feather-search">
-                    <circle cx="11" cy="11" r="8"></circle>
-                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                </svg>
-                <input type="search" id="search" placeholder="Search..."
-                    class=" pl-8 placeholder:italic bg-gray-200 outline-none rounded p-3 w-72" />
-                <button type="submit"
-                    class=" absolute right-1 bottom-1 bg-[#00a2d9] text-white px-4 py-2 rounded gap-1 flex items-center">
-                    Search
-                </button>
-            </form>
-            <button class=" flex items-center sm:hidden p-2 text-white rounded bg-[#00a2d9]" id='searchButton'>
+            <button class=" flex items-center sm:hidden md:block lg:hidden p-2 text-white rounded bg-[#00a2d9]"
+                id='searchButton'>
                 <svg class="mx-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                     class="feather feather-search">
@@ -117,13 +111,12 @@
                 </svg>
             </button>
             <a class="hidden lg:block transition-all cursor-pointer px-4 py-2 hover:bg-[#00a2d9] hover:text-white hover:shadow-md"
-                href="home.php">Home</a>
-            <a class="hidden lg:block transition-all cursor-pointer px-4 py-2 hover:bg-[#00a2d9] hover:text-white hover:shadow-md"
+                href="/ecommerce">Home</a>
+            <a class="hidden w-fit lg:block transition-all cursor-pointer px-4 py-2 hover:bg-[#00a2d9] hover:text-white hover:shadow-md"
                 href="about-us.php">About
                 us</a>
             <a class="hidden lg:block transition-all cursor-pointer px-4 py-2 hover:bg-[#00a2d9] hover:text-white hover:shadow-md"
                 href="contact.php">Contact</a>
-
             <a href="" class='hidden lg:block'>
                 <span class="hover:shadow rounded-full p-2 transition-all relative inline-flex ml-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -132,7 +125,6 @@
                         <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
                         <line x1="3" y1="6" x2="21" y2="6"></line>
                         <path d="M16 10a4 4 0 0 1-8 0"></path>
-
                     </svg>
                     <span class="relative flex absolute h-3 w-3 top-0 right-0 -mt-1 -mr-1">
                         <sup class="absolute -top-1 right-0.5 text-sm text-white z-10">0</sup> <span
@@ -141,16 +133,13 @@
                     </span>
                 </span>
             </a>
-            <button id='menu'>
-
-            </button>
-
             <button
-                class="flex items-center px-3 py-2 border rounded text-[#00a2d9] border-[#00a2d9] hover:text-black hover:border-black transition-all"
+                class=" lg:hidden flex items-center px-3 py-2 border rounded text-[#00a2d9] border-[#00a2d9] hover:text-black hover:border-black transition-all"
                 id="menu-button"> <svg class="fill-current h-3 w-3" viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-                </svg></button>
+                </svg>
+            </button>
             <div id="side-menu" class="relative">
                 <button id="closeMenu" class="absolute z-10 top-2 right-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -168,7 +157,6 @@
                 <a class="block transition-all cursor-pointer px-4 py-2 hover:bg-[#00a2d9] hover:text-white hover:shadow-md"
                     href="contact.php">Contact</a>
             </div>
-
         </nav>
         <!-- <div class="flex items-center gap-4">
             <a class=" hover:underline cursor-pointer">Login</a>
@@ -209,7 +197,7 @@
     </header>
     <main class=" py-24 py-16 min-h-[100vh] bg-gray-100/50">
         <div class="bg-gray-200 flex items-center">
-            <img src="images/test1.png" class="w-24 sm:w-44" />
-            <img src="images/test1.png" class="hidden sm:block w-44" />
+            <img src="images/tools.png" class="w-24 sm:w-44" />
+            <img src="images/tools.png" class="hidden sm:block w-44" />
             <h2 class="text-xl font-semibold ml-6 sm:ml-20">Home > Contact Us</h2>
         </div>
