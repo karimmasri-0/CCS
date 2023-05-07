@@ -4,15 +4,15 @@ $price_old = 40;
 $price_new = 39.99;
 $img = 'images/hammer.jpg'
     ?>
-<div class="mx-16  mt-8">
+<div class="mx-16 mt-8">
     <div class="text-2xl my-4 ">
         <?= $title ?>
     </div>
-    <div class="grid grid-cols-5 gap-8">
-        <div class="col-span-3 bg-white">
+    <div class="grid lg:grid-cols-5 gap-8">
+        <div class="lg:col-span-3 bg-white">
             <img src=<?= $img ?> alt="product" class=" w-[42rem]" />
         </div>
-        <div class="col-span-2 bg-white px-4 py-6">
+        <div class="lg:col-span-2 w-full bg-white px-4 py-6">
             <div class="flex justify-between items-center">
                 <div class="text-green-400">In stock</div>
                 <div class="text-right">
@@ -82,7 +82,7 @@ $img = 'images/hammer.jpg'
             <button class="mt-3 w-full bg-[#00a2d9] text-white px-4 py-2">Add to cart</button>
         </div>
     </div>
-    <div class="bg-white p-16 px-28 mt-16">
+    <div class="bg-white p-10 md:p-16 lg:px-28 mt-16">
         <div class=" text-2xl uppercase font-semibold">Description</div>
         <p class="mt-4">Introducing our high-quality hammer, designed to tackle any job with ease. Featuring a sturdy
             steel
