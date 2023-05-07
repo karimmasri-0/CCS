@@ -77,13 +77,12 @@ require_once('header.php'); ?>
     <form class="mt-28" action="" method="post">
         <h2 class="text-xl uppercase my-8 font-bold">Send us an Email</h2>
         <div class="grid grid-cols-3 gap-6">
-            <input class="px-6 py-4 bg-gray-200 placeholder:text-gray-500" type="text" placeholder="Your Name ..." />
-            <input class="px-6 py-4 bg-gray-200 placeholder:text-gray-500" type="email" placeholder="Your Email ..." />
-            <input class="px-6 py-4 bg-gray-200 placeholder:text-gray-500" type="tel"
-                placeholder="Your Phone number ..." />
+            <input class="px-6 py-4 bg-gray-200 placeholder:text-gray-500" type="text" placeholder="Your Name*" />
+            <input class="px-6 py-4 bg-gray-200 placeholder:text-gray-500" type="email" placeholder="Your Email*" />
+            <input class="px-6 py-4 bg-gray-200 placeholder:text-gray-500" type="tel" placeholder="Your Phone number" />
         </div>
-        <textarea class="bg-gray-200 w-full my-4 px-6 py-4 h-44 placeholder:text-gray-500"
-            placeholder="Your Message ..." aria-multiline="true"></textarea>
+        <textarea class="bg-gray-200 w-full my-4 px-6 py-4 h-44 placeholder:text-gray-500" placeholder="Your Message*"
+            aria-multiline="true"></textarea>
         <button type="submit" class="px-4 py-2 bg-[#00a2d9] text-sm font-bold text-white mt-4 uppercase">Send
             Message</button>
     </form>

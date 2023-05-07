@@ -48,7 +48,7 @@
 <body class="caret-[#00a2d9]">
     <header class="fixed w-full z-10 bg-white py-4 border-b px-12 flex items-center justify-between">
         <div class="flex items-center gap-10">
-            <img class=" w-16" src="logo.png" alt=" logo" />
+            <a href="/ecommerce"> <img class=" w-16" src="logo.png" alt=" logo" /></a>
             <div class="hidden md:block transition-all relative bg-[#00a2d9]">
                 <button id="dropdown-button" class=" gap-1 font-bold py-2 px-4 rounded inline-flex items-center">
                     <span class="text-lg text-white">Categories</span>
@@ -112,9 +112,9 @@
             </button>
             <a class="hidden lg:block transition-all cursor-pointer px-4 py-2 hover:bg-[#00a2d9] hover:text-white hover:shadow-md"
                 href="/ecommerce">Home</a>
-            <a class="hidden w-fit lg:block transition-all cursor-pointer px-4 py-2 hover:bg-[#00a2d9] hover:text-white hover:shadow-md"
-                href="about-us.php">About
-                us</a>
+            <a class="hidden lg:block transition-all cursor-pointer px-4 py-2 hover:bg-[#00a2d9] hover:text-white hover:shadow-md"
+                href="about-us.php">
+                About us</a>
             <a class="hidden lg:block transition-all cursor-pointer px-4 py-2 hover:bg-[#00a2d9] hover:text-white hover:shadow-md"
                 href="contact.php">Contact</a>
             <a href="" class='hidden lg:block'>
