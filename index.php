@@ -55,6 +55,7 @@ require_once('header.php'); ?>
         </div>
     </div>
 </div>
+
 <script>
     function AddToCart() {
         console.log('add to cart');

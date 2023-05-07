@@ -46,11 +46,12 @@
 </head>
 
 <body class="caret-[#00a2d9]">
-    <header class="fixed w-full z-10 bg-white py-4 border-b px-12 flex items-center justify-between">
-        <div class="flex items-center gap-10">
-            <a href="/ecommerce"> <img class=" w-16" src="logo.png" alt=" logo" /></a>
+    <header class="fixed w-full z-10 bg-white py-4 border-b px-8 flex items-center justify-between">
+        <div class="flex items-center gap-10 lg:gap-6">
+            <a href="/ecommerce"><img class="w-16" src="logo.png" alt=" logo" /></a>
             <div class="hidden md:block transition-all relative bg-[#00a2d9]">
-                <button id="dropdown-button" class=" gap-1 font-bold py-2 px-4 rounded inline-flex items-center">
+                <button id="dropdown-button"
+                    class="shadow-md hover:shadow-lg gap-1 font-bold py-2 px-4 rounded inline-flex items-center">
                     <span class="text-lg text-white">Categories</span>
                     <svg class="w-5 text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                         viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -70,7 +71,7 @@
                 </div>
             </div>
         </div>
-        <div id='searchField' class=' hidden '>
+        <div id='searchField' class='hidden sm:hidden lg:hidden'>
             <form class=" absolute top-1/2 right-1/2 translate-y-[50%] translate-x-[50%]">
                 <svg class=" absolute top-3 w-5 ml-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -94,14 +95,15 @@
                 <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
             </svg>
             <input type="search" id="search" placeholder="Search..."
-                class=" pl-8 placeholder:italic bg-gray-200 outline-none rounded p-3 w-[20rem] lg:w-[20rem]" />
+                class=" pl-8 placeholder:italic bg-gray-200 outline-none rounded p-3 w-[20rem] lg:w-[18rem]" />
             <button type="submit"
                 class=" absolute right-1 bottom-1 bg-[#00a2d9] text-white px-4 py-2 rounded gap-1 flex items-center">
                 Search
             </button>
         </form>
         <nav class=" flex items-center gap-4">
-            <button class=" flex items-center sm:hidden md:block lg:hidden p-2 text-white rounded bg-[#00a2d9]"
+            <button
+                class=" flex items-center sm:hidden md:block lg:hidden p-2 text-white rounded bg-[#00a2d9] hover:bg-[#00a2d9]/80 shadow-md hover:shadow-lg shadow-[#00a2d9]/20 hover:shadow-[#00a2d9]/40 transition-all"
                 id='searchButton'>
                 <svg class="mx-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -117,8 +119,32 @@
                 About us</a>
             <a class="hidden lg:block transition-all cursor-pointer px-4 py-2 hover:bg-[#00a2d9] hover:text-white hover:shadow-md"
                 href="contact.php">Contact</a>
-            <a href="" class='hidden lg:block'>
-                <span class="hover:shadow rounded-full p-2 transition-all relative inline-flex ml-2">
+            <a class="px-2 lg:px-4 py-2 bg-[#00a2d9] hover:bg-[#00a2d9]/80 shadow-md hover:shadow-lg shadow-[#00a2d9]/20 hover:shadow-[#00a2d9]/40 transition-all text-white rounded flex items-center gap-1"
+                href="login.php">
+                <div class="hidden lg:block">Sign in</div>
+                <svg class=" mx-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-user">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+            </a>
+            <a href="" class='block'>
+                <span class="relative inline-block mt-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-shopping-bag">
+                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                    </svg>
+                    <!-- <sup class="absolute -top-1 right-0.5 text-sm text-white z-10">0</sup> <span
+                        class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span> -->
+                    <span
+                        class="absolute top-0 right-0 inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-white transform translate-x-1/2 -translate-y-1/2 bg-[#00a2d9] rounded-full">0</span>
+                </span>
+                <!-- <span
+                    class=" p-2 relative inline-flex mr-2 shadow-md hover:shadow-lg shadow-[#00a2d9]/20 hover:shadow-[#00a2d9]/40 transition-all rounded-lg">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                         class="feather feather-shopping-bag">
@@ -131,17 +157,17 @@
                             class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
                         <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
                     </span>
-                </span>
+                </span> -->
             </a>
             <button
-                class=" lg:hidden flex items-center px-3 py-2 border rounded text-[#00a2d9] border-[#00a2d9] hover:text-black hover:border-black transition-all"
-                id="menu-button"> <svg class="fill-current h-3 w-3" viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg">
+                class="hover:bg-[#00a2d9]/80 shadow-md hover:shadow-lg shadow-[#00a2d9]/20 hover:shadow-[#00a2d9]/40 lg:hidden flex items-center px-3 py-2 border rounded text-[#00a2d9] border-[#00a2d9] hover:text-black hover:border-black transition-all"
+                id="menu-button">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
                 </svg>
             </button>
-            <div id="side-menu" class="relative">
-                <button id="closeMenu" class="absolute z-10 top-2 right-2">
+            <div id="side-menu" class="relative lg:hidden">
+                <button id="closeMenu" class="absolute z-10 top-2 right-2 ">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                         class="feather feather-x">
@@ -177,6 +203,7 @@
             });
             searchButton.addEventListener('click', function () {
                 searchField.classList.toggle('hidden');
+                searchField.classList.toggle('md:block');
                 searchField.classList.toggle('animate-fade-in');
             });
 

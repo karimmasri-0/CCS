@@ -55,7 +55,6 @@ $img = 'images/hammer.jpg'
                         <td> Item model number</td>
                         <td>1</td>
                     </tr>
-
                     <tr>
                         <td> Color</td>
                         <td>Multicolor</td>

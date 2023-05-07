@@ -62,9 +62,12 @@
             <h2 class="text-xl text-gray-200 uppercase mb-3">
                 Categories
             </h2>
-            <a class="border-black border-l-4 hover:border-[#00a2d9] transition-all pl-1 cursor-pointer">T-Shirts</a>
-            <a class="border-black border-l-4 hover:border-[#00a2d9] transition-all pl-1 cursor-pointer">Pants</a>
-            <a class="border-black border-l-4 hover:border-[#00a2d9] transition-all pl-1 cursor-pointer">Shorts</a>
+            <a class="border-black border-l-4 hover:border-[#00a2d9] transition-all pl-1 cursor-pointer">Repair
+                tools</a>
+            <a class="border-black border-l-4 hover:border-[#00a2d9] transition-all pl-1 cursor-pointer">Construction
+                tools</a>
+            <a class="border-black border-l-4 hover:border-[#00a2d9] transition-all pl-1 cursor-pointer">Paint
+                tools</a>
         </div>
         <div class=" flex flex-col gap-4 ">
             <h1 class="text-xl text-gray-200 uppercase mb-3">

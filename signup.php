@@ -28,13 +28,27 @@
                 <div class="relative flex-auto px-4 lg:px-10 py-10 pt-0">
 
                     <h1 class="bg-white rounded-lg px-3 pt-1 w-fit mb-5 text-2xl text-[#00a2d9] font-bold">
-                        Log in to your account
+                        Create an account
                     </h1>
                     <div class="text-center text-[#00a2d9]/80 text-xs italic absolute top-8 right-2 ">
-                        <div>New to CCS?</div>
-                        <a href="signup.php" class="p-2 hover:text-[#00a2d9] hover:underline z-20">Create an account</a>
+                        <div>Already a member?</div>
+                        <a href="login.php" class="p-2 hover:text-[#00a2d9] hover:underline z-20 ">Login
+                            instead</a>
                     </div>
                     <form>
+                        <div class="relative w-full mb-3">
+                            <label class="block uppercase text-xs font-bold mb-2" for="grid-password">Username</label>
+                            <input type="text"
+                                class="border-0 px-3 py-3 placeholder-blueGray-300  bg-white rounded text-sm shadow focus:outline-none focus:ring focus:ring-[#00a2d9] w-full ease-linear transition-all duration-150"
+                                placeholder="Password">
+                            <svg class="absolute right-3 top-9 text-gray-400" xmlns="http://www.w3.org/2000/svg"
+                                width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="feather feather-user">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                        </div>
                         <div class="relative w-full mb-3">
                             <label class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
                                 for="grid-password">Email</label>
@@ -54,6 +68,20 @@
                             <input type="password"
                                 class="border-0 px-3 py-3 placeholder-blueGray-300  bg-white rounded text-sm shadow focus:outline-none focus:ring focus:ring-[#00a2d9] w-full ease-linear transition-all duration-150"
                                 placeholder="Password">
+                            <svg class="absolute right-3 top-9 text-gray-400" xmlns="http://www.w3.org/2000/svg"
+                                width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="feather feather-lock">
+                                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                            </svg>
+                        </div>
+                        <div class="relative w-full mb-3">
+                            <label class="block uppercase text-xs font-bold mb-2" for="grid-password">
+                                Confirm Password</label>
+                            <input type="password"
+                                class="border-0 px-3 py-3 placeholder-blueGray-300  bg-white rounded text-sm shadow focus:outline-none focus:ring focus:ring-[#00a2d9] w-full ease-linear transition-all duration-150"
+                                placeholder="Confirm Password">
                             <svg class="absolute right-3 top-9 text-gray-400" xmlns="http://www.w3.org/2000/svg"
                                 width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
