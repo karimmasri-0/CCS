@@ -120,7 +120,7 @@
             <a class="hidden lg:block transition-all cursor-pointer px-4 py-2 hover:bg-[#00a2d9] hover:text-white hover:shadow-md"
                 href="contact.php">Contact</a>
             <a class="px-2 lg:px-4 py-2 bg-[#00a2d9] hover:bg-[#00a2d9]/80 shadow-md hover:shadow-lg shadow-[#00a2d9]/20 hover:shadow-[#00a2d9]/40 transition-all text-white rounded flex items-center gap-1"
-                href="login.php">
+                href="signup.php">
                 <div class="hidden lg:block">Sign in</div>
                 <svg class=" mx-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
