@@ -5,28 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login CCS</title>
+    <title>Sign Up CCS</title>
 </head>
 
 <body>
 
     <section class="mt-20">
         <div class="w-full lg:w-4/12 px-4 mx-auto pt-6">
-
             <div
                 class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200 border-0">
                 <div class="-z-10 absolute flex overflow-hidden">
-                    <img src=" images/tools.png" class="object-cover  w-20  " />
-                    <img src="images/tools.png" class="object-cover  w-20  " />
-                    <img src="images/tools.png" class="object-cover  w-20  " />
-                    <img src="images/tools.png" class="object-cover  w-20  " />
-                    <img src="images/tools.png" class="object-cover  w-20  " />
-                    <img src="images/tools.png" class="object-cover  w-20  " />
+                    <img src=" images/tools.png" class="object-cover w-20" />
+                    <img src="images/tools.png" class="object-cover w-20" />
+                    <img src="images/tools.png" class="object-cover w-20" />
+                    <img src="images/tools.png" class="object-cover w-20" />
+                    <img src="images/tools.png" class="object-cover w-20" />
+                    <img src="images/tools.png" class="object-cover w-20" />
                 </div>
                 <div class="rounded-t mb-0 px-6 py-6">
                 </div>
                 <div class="relative flex-auto px-4 lg:px-10 py-10 pt-0">
-
                     <h1 class="bg-white rounded-lg px-3 pt-1 w-fit mb-5 text-2xl text-[#00a2d9] font-bold">
                         Create an account
                     </h1>
@@ -39,7 +37,7 @@
                         <div class="relative w-full mb-3">
                             <label class="block uppercase text-xs font-bold mb-2" for="grid-password">Username</label>
                             <input type="text"
-                                class="border-0 px-3 py-3 placeholder-blueGray-300  bg-white rounded text-sm shadow focus:outline-none focus:ring focus:ring-[#00a2d9] w-full ease-linear transition-all duration-150"
+                                class="border-0 px-3 py-3 placeholder-blueGray-300 bg-white rounded text-sm shadow focus:outline-none focus:ring focus:ring-[#00a2d9] w-full ease-linear transition-all duration-150"
                                 placeholder="Password">
                             <svg class="absolute right-3 top-9 text-gray-400" xmlns="http://www.w3.org/2000/svg"
                                 width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -78,7 +76,8 @@
                         </div>
                         <div class="relative w-full mb-3">
                             <label class="block uppercase text-xs font-bold mb-2" for="grid-password">
-                                Confirm Password</label>
+                                Confirm Password
+                            </label>
                             <input type="password"
                                 class="border-0 px-3 py-3 placeholder-blueGray-300  bg-white rounded text-sm shadow focus:outline-none focus:ring focus:ring-[#00a2d9] w-full ease-linear transition-all duration-150"
                                 placeholder="Confirm Password">
@@ -93,13 +92,14 @@
                         <div>
                             <label class="inline-flex items-center cursor-pointer"><input id="customCheckLogin"
                                     type="checkbox"
-                                    class="form-checkbox border-0 rounded text-[#00a2d9] ml-1 w-5 h-5 ease-linear transition-all duration-150"><span
-                                    class="ml-2 text-sm font-semibold text-blueGray-600">Remember me</span></label>
+                                    class="form-checkbox border-0 rounded text-[#00a2d9] ml-1 w-5 h-5 ease-linear transition-all duration-150">
+                                <span class="ml-2 text-sm font-semibold text-blueGray-600">Remember me</span>
+                            </label>
                         </div>
                         <div class="text-center mt-6">
                             <button
                                 class="bg-[#00a2d9] text-white active:bg-[#00a2d9] text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
-                                type="button"> Submit </button>
+                                type="button">Submit</button>
                         </div>
                     </form>
                 </div>
