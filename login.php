@@ -16,18 +16,24 @@
             <div
                 class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200 border-0">
                 <div class="-z-10 absolute flex overflow-hidden">
-                    <img src=" images/tools.png" class="object-cover  w-20  " />
-                    <img src="images/tools.png" class="object-cover  w-20  " />
-                    <img src="images/tools.png" class="object-cover  w-20  " />
-                    <img src="images/tools.png" class="object-cover  w-20  " />
-                    <img src="images/tools.png" class="object-cover  w-20  " />
-                    <img src="images/tools.png" class="object-cover  w-20  " />
+                    <img src="images/tools.png" class="object-cover w-20" />
+                    <img src="images/tools.png" class="object-cover w-20" />
+                    <img src="images/tools.png" class="object-cover w-20" />
+                    <img src="images/tools.png" class="object-cover w-20" />
+                    <img src="images/tools.png" class="object-cover w-20" />
+                    <img src="images/tools.png" class="object-cover w-20" />
+                    <img src="images/tools.png" class="object-cover w-20" />
+                    <img src="images/tools.png" class="object-cover w-20" />
+                    <img src="images/tools.png" class="object-cover w-20" />
+                    <img src="images/tools.png" class="object-cover w-20" />
+                    <img src="images/tools.png" class="object-cover w-20" />
+                    <img src="images/tools.png" class="object-cover w-20" />
+                    <img src="images/tools.png" class="object-cover w-20" />
                 </div>
                 <div class="rounded-t mb-0 px-6 py-6">
                 </div>
                 <div class="relative flex-auto px-4 lg:px-10 py-10 pt-0">
-
-                    <h1 class="bg-white rounded-lg px-3 pt-1 w-fit mb-5 text-2xl text-[#00a2d9] font-bold">
+                    <h1 class="bg-white rounded-lg px-3 py-1 w-fit mb-5 text-2xl text-[#00a2d9] font-bold">
                         Log in to your account
                     </h1>
                     <div class="text-center text-[#00a2d9]/80 text-xs italic absolute top-8 right-2 ">

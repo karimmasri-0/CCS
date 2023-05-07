@@ -9,13 +9,19 @@
 </head>
 
 <body>
-
     <section class="mt-20">
         <div class="w-full lg:w-4/12 px-4 mx-auto pt-6">
             <div
                 class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200 border-0">
                 <div class="-z-10 absolute flex overflow-hidden">
-                    <img src=" images/tools.png" class="object-cover w-20" />
+                    <img src="images/tools.png" class="object-cover w-20" />
+                    <img src="images/tools.png" class="object-cover w-20" />
+                    <img src="images/tools.png" class="object-cover w-20" />
+                    <img src="images/tools.png" class="object-cover w-20" />
+                    <img src="images/tools.png" class="object-cover w-20" />
+                    <img src="images/tools.png" class="object-cover w-20" />
+                    <img src="images/tools.png" class="object-cover w-20" />
+                    <img src="images/tools.png" class="object-cover w-20" />
                     <img src="images/tools.png" class="object-cover w-20" />
                     <img src="images/tools.png" class="object-cover w-20" />
                     <img src="images/tools.png" class="object-cover w-20" />
