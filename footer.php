@@ -76,7 +76,7 @@
             <form class="flex flex-col gap-4">
                 <input type="email" class="p-3 bg-black outline-none text-gray-200 border" placeholder="Your Email*" />
                 <button type="submit"
-                    class="bg-[#00a2d9] w-fit shadow-md shadow-[#00a2d9]/20 hover:shadow-lg hover:shadow-[#00a2d9]/40 text-white px-4 py-2 transition-all focus:opacity-[0.85]">Submit</button>
+                    class="bg-[#00a2d9] w-fit shadow-md shadow-[#00a2d9]/20 hover:shadow-lg hover:shadow-[#00a2d9]/40 text-white px-4 py-2 transition-all focus:opacity-[0.85] cursor-pointer">Submit</button>
             </form>
         </div>
     </div>

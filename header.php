@@ -46,7 +46,7 @@
 </head>
 
 <body class="caret-[#00a2d9]">
-    <header class="fixed w-full z-10 bg-white py-4 border-b px-8 flex items-center justify-between">
+    <header class="fixed w-full z-30 bg-white py-4 border-b px-8 flex items-center justify-between">
         <div class="flex items-center gap-10 lg:gap-6">
             <a href="/ecommerce"><img class="w-16" src="logo.png" alt=" logo" /></a>
             <div class="hidden md:block transition-all relative bg-[#00a2d9]">

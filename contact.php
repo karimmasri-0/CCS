@@ -1,10 +1,9 @@
 <?php
 require_once('header.php'); ?>
-<div class="mx-40 pt-5">
-    <div class="grid grid-cols-5 gap-6 mx-44">
-        <div class="col-span-3 -z-10" id="map">
-        </div>
-        <div class="col-span-2 space-y-8">
+<div class="mx-10 lg:mx-40 pt-5">
+    <div class="mt-12 flex items-center flex-wrap md:flex-nowrap justify-center gap-6">
+        <div class="h-[24rem] w-[24rem] lg:h-[28rem] lg:w-[28rem] z-10 " id="map"></div>
+        <div class="space-y-8">
             <span class=" uppercase text-xl ">Contact us</span>
             <div class=" grid grid-rows-3 gap-6">
                 <div class="row-span-1 flex flex-row items-center w-full bg-gray-200 ">
@@ -76,7 +75,7 @@ require_once('header.php'); ?>
     </div>
     <form class="mt-28" action="" method="post">
         <h2 class="text-xl uppercase my-8 font-bold">Send us an Email</h2>
-        <div class="grid grid-cols-3 gap-6">
+        <div class="grid md:grid-cols-3 gap-6">
             <input class="px-6 py-4 bg-gray-200 placeholder:text-gray-500" type="text" placeholder="Your Name*" />
             <input class="px-6 py-4 bg-gray-200 placeholder:text-gray-500" type="email" placeholder="Your Email*" />
             <input class="px-6 py-4 bg-gray-200 placeholder:text-gray-500" type="tel" placeholder="Your Phone number" />
@@ -88,11 +87,13 @@ require_once('header.php'); ?>
     </form>
 </div>
 <script>
-    var map = L.map('map').setView([51.505, -0.09], 13);
+    var map = L.map('map').setView([34.4367, 35.8344], 13);
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(map);
+    var marker = L.marker([34.4367, 35.8344]).addTo(map);
+    marker.bindPopup("<b>We'd be more than happy if you give us a visit.</b>").openPopup();
 </script>
 <?php require_once('footer.php');
 ?>
