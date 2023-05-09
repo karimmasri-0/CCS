@@ -78,7 +78,10 @@ $img = 'images/hammer.jpg'
 
                 </table>
             </div>
-            <button class="mt-3 w-full bg-[#00a2d9] text-white px-4 py-2">Add to cart</button>
+            <div class="flex items-center gap-2 mt-3 w-full">
+                <input type="number" class="w-2/12 py-2 text-center border rounded border-[#00a2d9]" value=1 />
+                <button class="bg-[#00a2d9] w-10/12 text-white px-4 py-2">Add to cart</button>
+            </div>
         </div>
     </div>
     <div class="bg-white p-10 md:p-16 lg:px-28 mt-16">
