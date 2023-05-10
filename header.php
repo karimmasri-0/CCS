@@ -1,3 +1,5 @@
+<?php $signed_in = true ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -119,7 +121,8 @@
                 About us</a>
             <a class="hidden lg:block transition-all cursor-pointer px-4 py-2 hover:bg-[#00a2d9] hover:text-white hover:shadow-md"
                 href="contact.php">Contact</a>
-            <a class="px-2 lg:px-4 py-2 bg-[#00a2d9] hover:bg-[#00a2d9]/80 shadow-md hover:shadow-lg shadow-[#00a2d9]/20 hover:shadow-[#00a2d9]/40 transition-all text-white rounded flex items-center gap-1"
+            <?php if (!$signed_in)
+                echo '<a class="px-2 lg:px-4 py-2 bg-[#00a2d9] hover:bg-[#00a2d9]/80 shadow-md hover:shadow-lg shadow-[#00a2d9]/20 hover:shadow-[#00a2d9]/40 transition-all text-white rounded flex items-center gap-1"
                 href="signup.php">
                 <div class="hidden lg:block">Sign in</div>
                 <svg class=" mx-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
@@ -128,22 +131,22 @@
                     <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
                     <circle cx="12" cy="7" r="4"></circle>
                 </svg>
-            </a>
-            <a href="" class='block'>
-                <span class="relative inline-block mt-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="feather feather-shopping-bag">
-                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
-                        <line x1="3" y1="6" x2="21" y2="6"></line>
-                        <path d="M16 10a4 4 0 0 1-8 0"></path>
-                    </svg>
-                    <!-- <sup class="absolute -top-1 right-0.5 text-sm text-white z-10">0</sup> <span
+            </a>' ?>
+                <a href="" class='block'>
+                    <span class="relative inline-block mt-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-shopping-bag">
+                            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <path d="M16 10a4 4 0 0 1-8 0"></path>
+                        </svg>
+                        <!-- <sup class="absolute -top-1 right-0.5 text-sm text-white z-10">0</sup> <span
                         class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span> -->
-                    <span
-                        class="absolute top-0 right-0 inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-white transform translate-x-1/2 -translate-y-1/2 bg-[#00a2d9] rounded-full">0</span>
-                </span>
-                <!-- <span
+                        <span
+                            class="absolute top-0 right-0 inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-white transform translate-x-1/2 -translate-y-1/2 bg-[#00a2d9] rounded-full">0</span>
+                    </span>
+                    <!-- <span
                     class=" p-2 relative inline-flex mr-2 shadow-md hover:shadow-lg shadow-[#00a2d9]/20 hover:shadow-[#00a2d9]/40 transition-all rounded-lg">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -158,7 +161,17 @@
                         <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span>
                     </span>
                 </span> -->
-            </a>
+                </a>
+            <?php if ($signed_in)
+                echo '<a class="p-3 bg-[#00a2d9] hover:bg-[#00a2d9]/80 shadow-md hover:shadow-lg shadow-[#00a2d9]/20 hover:shadow-[#00a2d9]/40 transition-all text-white rounded flex items-center gap-1"
+                href="profile.php">
+                <svg class=" mx-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-user">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+            </a>'; ?>
             <button
                 class="hover:bg-[#00a2d9]/80 shadow-md hover:shadow-lg shadow-[#00a2d9]/20 hover:shadow-[#00a2d9]/40 lg:hidden flex items-center px-3 py-2 border rounded text-[#00a2d9] border-[#00a2d9] hover:text-black hover:border-black transition-all"
                 id="menu-button">
