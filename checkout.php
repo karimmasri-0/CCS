@@ -4,17 +4,17 @@ $products = [
     ['name' => 'DEWALT 20V MAX Cordless Drill and Impact Driver', 'old_price' => 10, 'new_price' => 6.99, 'in_stock' => true, 'image' => 'images/tools.jpg', 'qty' => 2],
 ];
 ?>
-<section class=" mx-32 my-5">
+<section class="mx-12 lg:mx-32 my-5">
     <h1 class=" text-3xl font-bold">Shopping cart</h1>
     <div class="mt-0 text-gray-600 text-sm">1 Product</div>
-    <div class="flex items-start gap-8 mt-12">
-        <div class="flex flex-col gap-12 w-3/5 ">
+    <div class="max-w-7xl mx-auto md:flex items-start gap-6 lg:gap-8 mt-12">
+        <div class="flex flex-col gap-12 md:w-3/5 ">
             <?php for ($i = 0; $i < count($products); $i++) {
                 echo '
-        <div class="p-8 bg-gray-200 flex items-center h-64 gap-6 border border-gray-300">
-            <img alt="product" class="w-44" src="' . $products[$i]['image'] . '"/>
+        <div class=" p-8 bg-gray-200 sm:flex sm:items-start items-center  gap-6 border border-gray-300 shadow-md">
+            <img alt="product" class="w-full object-cover sm:w-40 lg:w-44" src="' . $products[$i]['image'] . '"/>
             <div class="">
-                <div class="text-2xl mb-6 font-semibold">' . $products[$i]['name'] . '</div>
+                <div class="text-2xl mt-3 sm:mt-0 mb-6 font-semibold">' . $products[$i]['name'] . '</div>
                 <div class="flex items-center justify-between">
                     <div>
                         <del class="text-sm text-gray-400">$' . $products[$i]['old_price'] . '</del>
@@ -30,7 +30,7 @@ $products = [
             }
             ?>
         </div>
-        <div class="p-4 bg-gray-200 w-2/5">
+        <div class=" h-full p-4 mt-6 md:mt-0 bg-gray-200 md:w-2/5 shadow-md">
             <div class="text-xl font-semibold">Summary</div>
             <hr class="w-full my-4 h-px border-0 bg-gray-400/50">
             <div class="flex items-center justify-between mx-2 mt-4 mb-2">
