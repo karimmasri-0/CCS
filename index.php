@@ -1,13 +1,13 @@
 <?php
 require_once('header.php');
 $data = [
-    ['name' => 'Fiberglass Claw Hammer Pittsburgh 16 Oz. Shock', 'old_price' => 40, 'new_price' => 39.99, 'in_stock' => true, 'image' => 'images/hammer.jpg'],
-    ['name' => 'DEWALT 20V MAX Cordless Drill and Impact Driver', 'old_price' => 10, 'new_price' => 6.99, 'in_stock' => true, 'image' => 'images/tools.jpg'],
-    ['name' => 'Spec Ops Tools 4" Magnetic Pocket Level', 'old_price' => 50, 'new_price' => 29.99, 'in_stock' => false, 'image' => 'images/spec_ops.jpg'],
-    ['name' => 'Yellow Jacket 2827 12/3 15-Amp SJTW Contractor Power Block, Heavy Duty', 'old_price' => 150, 'new_price' => 119.99, 'in_stock' => true, 'image' => 'images/yellow_jacket.jpg'],
-    ['name' => 'Bucket Boss The Bucketeer Bucket Tool Organizer in Brown', 'old_price' => 20, 'new_price' => 16.59, 'in_stock' => false, 'image' => 'images/bucket.jpg'],
-    ['name' => 'CLC Work Gear PB1133 38 Pocket Molded Base Tool Backpack', 'old_price' => 120, 'new_price' => 79.99, 'in_stock' => true, 'image' => 'images/clc.jpg'],
-    ['name' => 'Klein Tools 55448 Bucket Bag ', 'old_price' => 35, 'new_price' => 32, 'in_stock' => true, 'image' => 'images/klein_tools.jpg'],
+    ['name' => 'Fiberglass Claw Hammer Pittsburgh 16 Oz. Shock', 'old_price' => 40, 'new_price' => 39.99, 'in_stock' => true, 'image' => 'images/newest-collection/hammer.png'],
+    ['name' => 'DEWALT 20V MAX Cordless Drill and Impact Driver', 'old_price' => 10, 'new_price' => 6.99, 'in_stock' => true, 'image' => 'images/newest-collection/tools.png'],
+    ['name' => 'Spec Ops Tools 4" Magnetic Pocket Level', 'old_price' => 50, 'new_price' => 29.99, 'in_stock' => false, 'image' => 'images/newest-collection/spec_ops.png'],
+    ['name' => 'Yellow Jacket 2827 12/3 15-Amp SJTW Contractor Power Block, Heavy Duty', 'old_price' => 150, 'new_price' => 119.99, 'in_stock' => true, 'image' => 'images/newest-collection/yellow_jacket.png'],
+    ['name' => 'Bucket Boss The Bucketeer Bucket Tool Organizer in Brown', 'old_price' => 20, 'new_price' => 16.59, 'in_stock' => false, 'image' => 'images/newest-collection/bucket.png'],
+    ['name' => 'CLC Work Gear PB1133 38 Pocket Molded Base Tool Backpack', 'old_price' => 120, 'new_price' => 79.99, 'in_stock' => true, 'image' => 'images/newest-collection/clc.png'],
+    ['name' => 'Klein Tools 55448 Bucket Bag ', 'old_price' => 35, 'new_price' => 32, 'in_stock' => true, 'image' => 'images/newest-collection/klein_tools.png'],
 ];
 function debug_to_console($data)
 {
@@ -79,29 +79,29 @@ function debug_to_console($data)
         <h2 class="uppercase text-xl font-semibold text-center sm:text-left">Services Highlights</h2>
         <div class="grid  md:grid-cols-4 lg:grid-cols-6 mx-16 gap-4 my-10">
             <div class="flex flex-col items-center p-8 rounded shadow hover:shadow-lg transition-all">
-                <img class="w-24" src="images/cash.png" />
+                <img class="w-24" src="images/services/cash.png" />
                 <span class="mt-4 text-gray-600 text-sm  text-center">Cash on Delivery</span>
 
             </div>
             <div class="flex flex-col items-center p-8 rounded shadow hover:shadow-lg transition-all">
-                <img class="w-24" src="images/repair.png" />
+                <img class="w-24" src="images/services/repair.png" />
                 <span class="mt-4 text-gray-600 text-sm text-center">1 year Warrantly</span>
             </div>
             <div class="flex flex-col items-center p-8 rounded shadow hover:shadow-lg transition-all">
-                <img class="w-24" src="images/chat.png" />
+                <img class="w-24" src="images/services/chat.png" />
                 <span class="mt-4 text-gray-600 text-sm text-center">Active chat</span>
             </div>
             <div class="flex flex-col items-center p-8 rounded shadow hover:shadow-lg transition-all">
-                <img class="w-24" src="images/exchange.png" />
+                <img class="w-24" src="images/services/exchange.png" />
                 <span class="mt-4 text-gray-600 text-sm text-center">Exchange & Return</span>
             </div>
             <div
                 class="flex flex-col items-center p-8 rounded shadow hover:shadow-lg md:col-start-2 lg:col-start-5 transition-all">
-                <img class="w-24" src="images/delivery.png" />
+                <img class="w-24" src="images/services/delivery.png" />
                 <span class="mt-4 text-gray-600 text-sm text-center">Free Delivery</span>
             </div>
             <div class="flex flex-col items-center p-8 rounded shadow hover:shadow-lg  transition-all">
-                <img class="w-24" src="images/trusted.png" />
+                <img class="w-24" src="images/services/trusted.png" />
                 <span class="mt-4 text-gray-600 text-sm text-center">Trusted</span>
             </div>
         </div>
