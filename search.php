@@ -1,20 +1,20 @@
 <?php require_once('header.php');
 $data = [
-    ['name' => 'Fiberglass Claw Hammer Pittsburgh 16 Oz. Shock', 'old_price' => 40, 'new_price' => 39.99, 'in_stock' => true, 'image' => 'images/hammer.jpg'],
-    ['name' => 'DEWALT 20V MAX Cordless Drill and Impact Driver', 'old_price' => 10, 'new_price' => 6.99, 'in_stock' => true, 'image' => 'images/tools.jpg'],
-    ['name' => 'Spec Ops Tools 4" Magnetic Pocket Level', 'old_price' => 50, 'new_price' => 29.99, 'in_stock' => false, 'image' => 'images/spec_ops.jpg'],
-    ['name' => 'Yellow Jacket 2827 12/3 15-Amp SJTW Contractor Power Block, Heavy Duty', 'old_price' => 150, 'new_price' => 119.99, 'in_stock' => true, 'image' => 'images/yellow_jacket.jpg'],
-    ['name' => 'Bucket Boss The Bucketeer Bucket Tool Organizer in Brown', 'old_price' => 20, 'new_price' => 16.59, 'in_stock' => false, 'image' => 'images/bucket.jpg'],
-    ['name' => 'CLC Work Gear PB1133 38 Pocket Molded Base Tool Backpack', 'old_price' => 120, 'new_price' => 79.99, 'in_stock' => true, 'image' => 'images/clc.jpg'],
-    ['name' => 'Klein Tools 55448 Bucket Bag ', 'old_price' => 35, 'new_price' => 32, 'in_stock' => true, 'image' => 'images/klein_tools.jpg'],
+    ['name' => 'Fiberglass Claw Hammer Pittsburgh 16 Oz. Shock', 'old_price' => 40, 'new_price' => 39.99, 'in_stock' => true, 'image' => 'images/newest-collection/hammer.png'],
+    ['name' => 'DEWALT 20V MAX Cordless Drill and Impact Driver', 'old_price' => 10, 'new_price' => 6.99, 'in_stock' => true, 'image' => 'images/newest-collection/tools.png'],
+    ['name' => 'Spec Ops Tools 4" Magnetic Pocket Level', 'old_price' => 50, 'new_price' => 29.99, 'in_stock' => false, 'image' => 'images/newest-collection/spec_ops.png'],
+    ['name' => 'Yellow Jacket 2827 12/3 15-Amp SJTW Contractor Power Block, Heavy Duty', 'old_price' => 150, 'new_price' => 119.99, 'in_stock' => true, 'image' => 'images/newest-collection/yellow_jacket.png'],
+    ['name' => 'Bucket Boss The Bucketeer Bucket Tool Organizer in Brown', 'old_price' => 20, 'new_price' => 16.59, 'in_stock' => false, 'image' => 'images/newest-collection/bucket.png'],
+    ['name' => 'CLC Work Gear PB1133 38 Pocket Molded Base Tool Backpack', 'old_price' => 120, 'new_price' => 79.99, 'in_stock' => true, 'image' => 'images/newest-collection/clc.png'],
+    ['name' => 'Klein Tools 55448 Bucket Bag ', 'old_price' => 35, 'new_price' => 32, 'in_stock' => true, 'image' => 'images/newest-collection/klein_tools.png'],
 ];
 $categories = [
     ['name' => 'Power Tools', 'link' => 'power-tools', 'image' => 'images/Power-Tools.png'],
-    ['name' => 'Hand Tools', 'link' => 'hand-tools', 'image' => 'images/Hand-Tools.webp'],
-    ['name' => 'Garden and Outdoor Tools', 'link' => 'garden-and-outdoor-tools', 'image' => 'images/Garden-and-Outdoor-Tools.jpg'],
-    ['name' => 'Measuring and Precision Tools', 'link' => 'measuring-and-precision-tools', 'image' => 'images/Measuring-and-Precision-Tools.jpeg'],
-    ['name' => 'Electrical Tools', 'link' => 'electrical-tools', 'image' => 'images/Electrical-Tools.jpg'],
-    ['name' => 'Plumbing Tools', 'link' => 'plumbing-tools', 'image' => 'images/Plumbing-Tools.jpg'],
+    ['name' => 'Hand Tools', 'link' => 'hand-tools', 'image' => 'images/Hand-Tools.png'],
+    ['name' => 'Garden and Outdoor Tools', 'link' => 'garden-and-outdoor-tools', 'image' => 'images/Garden-and-Outdoor-Tools.png'],
+    ['name' => 'Measuring and Precision Tools', 'link' => 'measuring-and-precision-tools', 'image' => 'images/Measuring-and-Precision-Tools.png'],
+    ['name' => 'Electrical Tools', 'link' => 'electrical-tools', 'image' => 'images/Electrical-Tools.png'],
+    ['name' => 'Plumbing Tools', 'link' => 'plumbing-tools', 'image' => 'images/Plumbing-Tools.png'],
     ['name' => 'Painting and Decorating Tools', 'link' => 'painting-and-decorating-tools', 'image' => 'images/Painting-and-Decorating-Tools.png'],
     ['name' => 'Construction and Building Tools', 'link' => 'construction-and-building-tools', 'image' => 'images/Construction-and-Building-Tools.png'],
 ]

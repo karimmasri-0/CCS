@@ -1,10 +1,9 @@
 <?php require_once('../top-layout.php'); ?>
 <div>
     <div class="flex items-center justify-between mb-6">
-        <h2 class="text-gray-700 uppercase font-bold">Add New Category</h2>
+        <h2 class="text-gray-700 uppercase font-bold">Add New Product</h2>
         <div class="flex flex-wrap items-center">
-            <a href="../categories/"
-                class="bg-gray-700 text-white text-sm uppercase py-2 px-4 flex items-center rounded">
+            <a href="../products/" class="bg-gray-700 text-white text-sm uppercase py-2 px-4 flex items-center rounded">
                 <svg class="w-3 h-3 fill-current" aria-hidden="true" focusable="false" data-prefix="fas"
                     data-icon="long-arrow-alt-left" class="svg-inline--fa fa-long-arrow-alt-left fa-w-14" role="img"
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -32,11 +31,44 @@
             <div class="md:flex md:items-center mb-6">
                 <div class="md:w-1/3">
                     <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="inline-full-name">
+                        Stock
+                    </label>
+                </div>
+                <div class="md:w-2/3">
+                    <input name="stock" type="text"
+                        class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-blue-500">
+                </div>
+            </div>
+            <div class="md:flex md:items-center mb-6">
+                <div class="md:w-1/3">
+                    <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="inline-full-name">
+                        MRP
+                    </label>
+                </div>
+                <div class="md:w-2/3">
+                    <input name="mrp" type="text"
+                        class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-blue-500">
+                </div>
+            </div>
+            <div class="md:flex md:items-center mb-6">
+                <div class="md:w-1/3">
+                    <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="inline-full-name">
+                        Price
+                    </label>
+                </div>
+                <div class="md:w-2/3">
+                    <input name="price" type="text"
+                        class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-blue-500">
+                </div>
+            </div>
+            <div class="md:flex md:items-center mb-6">
+                <div class="md:w-1/3">
+                    <label class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" for="inline-full-name">
                         Image
                     </label>
                 </div>
                 <div class="md:w-2/3">
-                    <input name="category_image" type="file"
+                    <input name="product_image" type="file"
                         class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-blue-500">
                 </div>
             </div>

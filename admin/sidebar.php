@@ -1,8 +1,7 @@
-<?php require_once('navbar.php') ?>
-<div
+<aside
     class="sidebar hidden sm:block w-0 sm:w-1/6 bg-gray-200 h-screen shadow fixed top-0 left-0 bottom-0 z-40 overflow-y-auto">
     <div class="mb-6 mt-20 px-6">
-        <a href="index.php" class="flex items-center text-gray-600 py-2 hover:text-blue-700">
+        <a href="/ecommerce/admin/index.php" class="flex items-center text-gray-600 py-2 hover:text-[#00a2d9]">
             <svg class="h-4 w-4 fill-current feather feather-home" xmlns="http://www.w3.org/2000/svg" width="24"
                 height="24" viewBox="0 0 576 512">
                 <path
@@ -10,8 +9,7 @@
             </svg>
             <span class="ml-2 text-sm font-semibold">Dashboard</span>
         </a>
-
-        <a href="categories.php" class="flex items-center text-gray-600 py-2 hover:text-blue-700">
+        <a href="/ecommerce/admin/categories/" class="flex items-center text-gray-600 py-2 hover:text-[#00a2d9]">
             <svg class="h-4 w-4 fill-current feather feather-grid" xmlns="http://www.w3.org/2000/svg" width="24"
                 height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -22,14 +20,14 @@
             </svg>
             <span class="ml-2 text-sm font-semibold">Categories</span>
         </a>
-        <a href="products.php" class="flex items-center text-gray-600 py-2 hover:text-blue-700">
+        <a href="/ecommerce/admin/products/" class="flex items-center text-gray-600 py-2 hover:text-[#00a2d9]">
             <svg class="h-4 w-4 fill-current" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
                 <path
                     d="M502.693647 382.945882c-25.404235 0-49.423059-3.704471-67.659294-10.435764L59.648 233.863529c-30.750118-11.369412-35.328-27.934118-35.328-36.788705 0-8.869647 4.592941-25.434353 35.328-36.803765l375.371294-138.646588C453.255529 14.908235 477.274353 11.188706 502.678588 11.188706c25.419294 0 49.438118 3.704471 67.674353 10.435765l375.371294 138.646588c30.750118 11.369412 35.328 27.934118 35.328 36.803765 0 8.854588-4.592941 25.419294-35.328 36.788705l-375.371294 138.646589c-18.236235 6.731294-42.255059 10.435765-67.659294 10.435764zM422.610824 1008.429176c-8.553412 0-17.709176-1.656471-26.398118-4.939294L67.403294 878.034824C29.108706 863.623529 0 818.959059 0 774.174118V355.794824c0-37.541647 20.133647-61.801412 51.275294-61.801412 7.951059 0 16.384 1.656471 25.088 4.939294l333.402353 125.44c39.996235 15.058824 72.131765 60.687059 72.131765 103.875765v418.379294c-0.015059 35.794824-25.404235 61.801412-59.286588 61.801411zM591.073882 1001.411765h1.776942C561.423059 1001.411765 542.117647 983.582118 542.117647 946.627765V528.248471c0-44.634353 27.422118-89.283765 66.183529-103.875765l328.297412-125.424941a85.142588 85.142588 0 0 1 28.03953-4.954353c33.701647 0 59.361882 25.419294 59.361882 61.801412V774.174118c0 43.339294-33.611294 88.982588-73.216 103.875764l-333.161412 121.931294c-8.734118 3.267765-18.507294 1.430588-26.548706 1.430589z" />
             </svg>
             <span class="ml-2 text-sm font-semibold">Products</span>
         </a>
-        <a href="" class="flex items-center text-gray-600 py-2 hover:text-blue-700">
+        <a href="/ecommerce/admin/orders" class="flex items-center text-gray-600 py-2 hover:text-[#00a2d9]">
             <svg class="h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg" stroke-width="2" stroke-opacity="0"
                 viewBox="0 0 101.29 122.88">
                 <g>
@@ -40,7 +38,7 @@
             <span class="ml-2 text-sm font-semibold">Orders</span>
         </a>
 
-        <a href="all-users.php" class="flex items-center text-gray-600 py-2 hover:text-blue-700">
+        <a href="/ecommerce/admin/users" class="flex items-center text-gray-600 py-2 hover:text-[#00a2d9]">
             <svg class="h-4 w-4 fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                 stroke-linejoin="round" class="feather feather-user">
@@ -49,7 +47,7 @@
             </svg>
             <span class="ml-2 text-sm font-semibold">Users</span>
         </a>
-        <a href="{{ route('roles-permissions') }}" class="flex items-center text-gray-600 py-2 hover:text-blue-700">
+        <a href="" class="flex items-center text-gray-600 py-2 hover:text-[#00a2d9]">
             <svg class="h-4 w-4 fill-current" aria-hidden="true" focusable="false" data-prefix="fas"
                 data-icon="user-cog" class="svg-inline--fa fa-user-cog fa-w-20" role="img"
                 xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
@@ -60,5 +58,4 @@
             <span class="ml-2 text-sm font-semibold">Roles &amp; Permissions</span>
         </a>
     </div>
-</div>
-<?php require_once('footer.php') ?>
+</aside>

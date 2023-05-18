@@ -1,3 +1,6 @@
+</div>
+</div>
+</main>
 <script src="https://cdn.tailwindcss.com"></script>
 </body>
 
